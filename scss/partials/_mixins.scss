@@ -1,0 +1,8 @@
+@mixin buttonStyles {
+    color: $secondary;
+    font-weight: bold;
+    background-color: rgb(10, 204, 248);
+    padding: $normal-padding;
+    border: none;
+    border-radius: 30px;
+  }
