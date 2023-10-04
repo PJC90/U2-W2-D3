@@ -1,2 +1,20 @@
-$normal-padding: 10px 30px;
 
+
+button.bluHover{
+    @include buttonStyles;
+    &:hover{
+        background-color: #0e6cff;
+    }
+}
+button.orangeHover{
+    @include buttonStyles;
+    &:hover{
+        background-color: #ff8700;
+    }
+}
+button.greenHover{
+    @include buttonStyles;
+    &:hover{
+        background-color: #4caf50;
+    }
+}

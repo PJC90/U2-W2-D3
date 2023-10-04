@@ -1,3 +1,5 @@
+$normal-padding: 10px 30px;
+
 @mixin buttonStyles {
     color: $secondary;
     font-weight: bold;
@@ -6,3 +8,22 @@
     border: none;
     border-radius: 30px;
   }
+
+@mixin titleBig{
+  font: {
+      size: 2em;
+      weight: bold;
+  }
+  color: $title;
+}
+
+@mixin floating ($box-shadow, $border:2px solid $terzo){
+  border-radius: 50px;
+  box-shadow: $box-shadow;
+  border: $border;
+}
+
+.floatMixin img{
+  @include floating(0.3em 0.3em 1em rgba(234, 255, 0, 0.6))
+}
+

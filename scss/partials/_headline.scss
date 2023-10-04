@@ -18,5 +18,8 @@
             justify-content: space-around;
             
         }
+        & div h3{
+            @include titleBig;
+        }
     }
     

@@ -1,0 +1,53 @@
+$padding-map: (
+    sm:2px,
+    normal:5px,
+    md:8px,
+    lg:20px,
+    xl:50px,
+    xxl:100px,
+);
+$margin-map: (
+    sm:2px,
+    normal:5px,
+    md:8px,
+    lg:20px,
+    xl:50px,
+    xxl:100px,
+);
+$margin-top-map: (
+    sm:2px,
+    normal:5px,
+    md:8px,
+    lg:20px,
+    xl:50px,
+    xxl:100px,
+);
+$margin-bot-map: (
+    sm:2px,
+    normal:5px,
+    md:8px,
+    lg:20px,
+    xl:50px,
+    xxl:100px,
+);
+
+@each $breakpoint, $value in $padding-map{
+    .p-#{$breakpoint}{
+        padding: $value;
+    }
+}
+@each $breakpoint, $value in $margin-map{
+    .m-#{$breakpoint}{
+        margin: $value;
+    }
+}
+@each $breakpoint, $value in $margin-top-map{
+    .mt-#{$breakpoint}{
+        margin-top: $value;
+    }
+}
+@each $breakpoint, $value in $margin-bot-map{
+    .mb-#{$breakpoint}{
+        margin-bottom: $value;
+    }
+}

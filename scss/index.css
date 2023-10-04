@@ -1,11 +1,160 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
 }
 
 body {
   background-color: #179CF0;
   color: #179CF0;
+}
+
+.p-sm {
+  padding: 2px;
+}
+
+.p-normal {
+  padding: 5px;
+}
+
+.p-md {
+  padding: 8px;
+}
+
+.p-lg {
+  padding: 20px;
+}
+
+.p-xl {
+  padding: 50px;
+}
+
+.p-xxl {
+  padding: 100px;
+}
+
+.m-sm {
+  margin: 2px;
+}
+
+.m-normal {
+  margin: 5px;
+}
+
+.m-md {
+  margin: 8px;
+}
+
+.m-lg {
+  margin: 20px;
+}
+
+.m-xl {
+  margin: 50px;
+}
+
+.m-xxl {
+  margin: 100px;
+}
+
+.mt-sm {
+  margin-top: 2px;
+}
+
+.mt-normal {
+  margin-top: 5px;
+}
+
+.mt-md {
+  margin-top: 8px;
+}
+
+.mt-lg {
+  margin-top: 20px;
+}
+
+.mt-xl {
+  margin-top: 50px;
+}
+
+.mt-xxl {
+  margin-top: 100px;
+}
+
+.mb-sm {
+  margin-bottom: 2px;
+}
+
+.mb-normal {
+  margin-bottom: 5px;
+}
+
+.mb-md {
+  margin-bottom: 8px;
+}
+
+.mb-lg {
+  margin-bottom: 20px;
+}
+
+.mb-xl {
+  margin-bottom: 50px;
+}
+
+.mb-xxl {
+  margin-bottom: 100px;
+}
+
+.floatMixin img {
+  border-radius: 50px;
+  box-shadow: 0.3em 0.3em 1em rgba(234, 255, 0, 0.6);
+  border: 2px solid white;
+}
+
+button.bluHover {
+  color: rgba(26, 43, 54, 0.6156862745);
+  font-weight: bold;
+  background-color: rgb(10, 204, 248);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+}
+button.bluHover:hover {
+  background-color: #0e6cff;
+}
+
+button.orangeHover {
+  color: rgba(26, 43, 54, 0.6156862745);
+  font-weight: bold;
+  background-color: rgb(10, 204, 248);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+}
+button.orangeHover:hover {
+  background-color: #ff8700;
+}
+
+button.greenHover {
+  color: rgba(26, 43, 54, 0.6156862745);
+  font-weight: bold;
+  background-color: rgb(10, 204, 248);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+}
+button.greenHover:hover {
+  background-color: #4caf50;
 }
 
 header {
@@ -60,6 +209,11 @@ section:nth-of-type(1) div:nth-of-type(2) {
   justify-content: center;
   justify-content: space-around;
 }
+section:nth-of-type(1) div h3 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #f7f7f7;
+}
 
 section:nth-of-type(2) .container {
   color: rgba(26, 43, 54, 0.6156862745);
@@ -81,4 +235,13 @@ section:nth-of-type(2) .card img {
 }
 section:nth-of-type(2) .card div:nth-of-type(2) p {
   padding: 0 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=index.css.map */
